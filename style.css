@@ -197,6 +197,7 @@ video-section:first-child{
     border-top: 1px solid gray;
     overflow-x: scroll;
     margin-top: 92px;
+    width: 103%;
 }
 
 .category-section{
