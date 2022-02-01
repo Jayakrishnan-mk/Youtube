@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <div class="main">
+
+    <header class="header ">
+        <div class="navbar">
+
+            <button class="btn" id="button" onclick="btnclicked()">
+                <ion-icon name="menu-outline" class="ham-btn"></ion-icon>
+            </button>
+    
+
+
+
+        </div>
+    
+        <a href="#">
+            <img src="logos/youtubelogo.jpg" alt="Youtube logo" class="youtube-logo-home">
+        </a>
+
+        <form class="searchbar">
+            <input class=" search-input" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit" class="search-btn " style="padding: .1rem;">
+                <img src="logos/search logo.svg " alt="">
+            </button>
+
+        </form>
+        <div class="menu-icons">
+            <a href="#">
+                <img src="logos/videocall.svg" alt="Upload video">
+            </a>
+            <a href="#">
+                <img src="logos/apps.svg" alt="Apps">
+            </a>
+            <a href="#">
+                <img src="logos/notifications.svg" alt="Notification">
+            </a>
+            <a href="#">
+                <img src="logos/user.svg" alt="Log in">
+            </a>
+    </header>
+
+    <nav id="nav-menu" >
+        <ul class="nav-menu-items" style="margin: 0; padding: 0 ;  padding-left: 15px; padding-top: 20px;">
+            <div id="navbar-toggle">
+                
+                  
+            
+                <a href="#">
+                    <img src="logos/youtubelogo.jpg" alt="Youtube logo" class="youtube-logo-ham">
+                </a>
+                
+            </div>
+            <hr />
+            <div class="nav-section">
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="home-outline" class="nav-icon"></ion-icon>Home
+                    </a>
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="compass-outline" class="nav-icon"></ion-icon>
+                        </ion-icon>Explore
+                    </a>
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="logo-youtube" class="nav-icon"></ion-icon>Subscription
+                    </a>
+                </li>
+            </div>
+            <hr />
+            <div class="nav-section">
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="timer-outline" class="nav-icon"></ion-icon>
+                        </ion-icon>History
+                    </a>
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="time-outline" class="nav-icon"></ion-icon>Watch later
+                    </a>
+                <li class="nav-text">
+                    <a href="#">
+                        <ion-icon name="logo-youtube" class="nav-icon"></ion-icon>Library
+                    </a>
+                </li>
+            </div>
+
+        </ul>
+    </nav>
+
+
+    <div class="categories">
+        <div class="category-section scrollmenu">
+
+            <button class="category active">All</button>
+            <button class="category">Category 1</button>
+            <button class="category">Category 2</button>
+            <button class="category">Category 3</button>
+            <button class="category">Category 4</button>
+            <button class="category">Category 5</button>
+            <button class="category">Category 6</button>
+            <button class="category">Category 7</button>
+            <button class="category">Category 8</button>
+            <button class="category">Category 9</button>
+            <button class="category">Category 10</button>
+
+
+        </div>
+
+
+    </div>
+    <div class="video">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="50.02">
+                    <img class="thumbnail-image" src="ut-th/th1.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th3.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="46.02">
+                    <img class="thumbnail-image" src="ut-th/th4.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="30.15">
+                    <img class="thumbnail-image" src="ut-th/th6.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="31.13">
+                    <img class="thumbnail-image" src="ut-th/th7.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="55.25">
+                    <img class="thumbnail-image" src="ut-th/th8.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="36.59">
+                    <img class="thumbnail-image" src="ut-th/th9.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="22.12">
+                    <img class="thumbnail-image" src="ut-th/th10.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="39.44">
+                    <img class="thumbnail-image" src="ut-th/th11.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th12.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th1.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th3.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th4.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th6.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th7.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th8.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th9.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th10.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th11.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th12.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th1.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th3.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th4.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th6.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th7.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th8.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th9.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th10.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th11.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="56.02">
+                    <img class="thumbnail-image" src="ut-th/th12.jpg" />
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="ut-th/th2.png" />
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>33K views</span>
+                            •
+                            <span>8 months ago </span>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+
+
+
+    </div>
+    
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+    <script src="youtube.js"></script>
+
+</div>
+
+
+</main>
+  
+</body>
+
+</html>
